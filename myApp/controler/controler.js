@@ -3,7 +3,7 @@ const User=require('../models/models');
 const { error } = require('console');
 
 exports.signup= async (req,res)=>{
-    res.sendFile(path.join(__dirname, '../','views','index.html'))
+    res.sendFile(path.join(__dirname, '../','views','signup.html'))
 };
 
 exports.post=async(req,res)=>{
